@@ -1,0 +1,12 @@
+C:\Users\Nicolas\source\repos\TicTacToe\CSTris\bin\Debug\CSTris.exe.config
+C:\Users\Nicolas\source\repos\TicTacToe\CSTris\bin\Debug\CSTris.exe
+C:\Users\Nicolas\source\repos\TicTacToe\CSTris\bin\Debug\CSTris.pdb
+C:\Users\Nicolas\source\repos\TicTacToe\CSTris\obj\Debug\TicTacToe.csproj.AssemblyReference.cache
+C:\Users\Nicolas\source\repos\TicTacToe\CSTris\obj\Debug\TicTacToe.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nicolas\source\repos\TicTacToe\CSTris\obj\Debug\TicTacToe.MainForm.resources
+C:\Users\Nicolas\source\repos\TicTacToe\CSTris\obj\Debug\TicTacToe.AboutForm.resources
+C:\Users\Nicolas\source\repos\TicTacToe\CSTris\obj\Debug\CSTris.Properties.Resources.resources
+C:\Users\Nicolas\source\repos\TicTacToe\CSTris\obj\Debug\TicTacToe.csproj.GenerateResource.cache
+C:\Users\Nicolas\source\repos\TicTacToe\CSTris\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\source\repos\TicTacToe\CSTris\obj\Debug\CSTris.exe
+C:\Users\Nicolas\source\repos\TicTacToe\CSTris\obj\Debug\CSTris.pdb
