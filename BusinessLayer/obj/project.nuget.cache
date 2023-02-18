@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Po0Gqba98lqKNfwMcQcbCGQb0NC1pgNlcjDYxs0cuF/yanGjQSmKOJbK5hO/igfaxMMfXj16C8IbiZfo2H4WcQ==",
+  "dgSpecHash": "f2uREhorMJ9amExZ4EI4MrKdyJcwHAR4lle/QRxd3dbNiGWN0UFp3PnAwtqSiYRVxbTNPqPHN1S6c+FSVT0VHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nicolas\\source\\repos\\TicTacToe\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\source\\repos\\TicTacToe\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

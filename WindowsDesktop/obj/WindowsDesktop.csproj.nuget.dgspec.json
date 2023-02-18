@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nicolas\\source\\repos\\TicTacToe\\WindowsDesktop\\WindowsDesktop.csproj": {}
+    "C:\\Users\\nicol\\source\\repos\\TicTacToe\\WindowsDesktop\\WindowsDesktop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nicolas\\source\\repos\\TicTacToe\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\nicol\\source\\repos\\TicTacToe\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicolas\\source\\repos\\TicTacToe\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\nicol\\source\\repos\\TicTacToe\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\Nicolas\\source\\repos\\TicTacToe\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicolas\\source\\repos\\TicTacToe\\BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\nicol\\source\\repos\\TicTacToe\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nicol\\source\\repos\\TicTacToe\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,17 +59,17 @@
         }
       }
     },
-    "C:\\Users\\Nicolas\\source\\repos\\TicTacToe\\WindowsDesktop\\WindowsDesktop.csproj": {
+    "C:\\Users\\nicol\\source\\repos\\TicTacToe\\WindowsDesktop\\WindowsDesktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicolas\\source\\repos\\TicTacToe\\WindowsDesktop\\WindowsDesktop.csproj",
+        "projectUniqueName": "C:\\Users\\nicol\\source\\repos\\TicTacToe\\WindowsDesktop\\WindowsDesktop.csproj",
         "projectName": "WindowsDesktop",
-        "projectPath": "C:\\Users\\Nicolas\\source\\repos\\TicTacToe\\WindowsDesktop\\WindowsDesktop.csproj",
-        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicolas\\source\\repos\\TicTacToe\\WindowsDesktop\\obj\\",
+        "projectPath": "C:\\Users\\nicol\\source\\repos\\TicTacToe\\WindowsDesktop\\WindowsDesktop.csproj",
+        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nicol\\source\\repos\\TicTacToe\\WindowsDesktop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Nicolas\\source\\repos\\TicTacToe\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\Nicolas\\source\\repos\\TicTacToe\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\nicol\\source\\repos\\TicTacToe\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\nicol\\source\\repos\\TicTacToe\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }

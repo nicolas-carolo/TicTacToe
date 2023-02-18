@@ -9,7 +9,6 @@ namespace BusinessLayer.Entities
     public class Combination
 
     {
-
         public string Name;
         public int[] CombinationArray = new int[3];
         public Combination(string name) {
@@ -19,9 +18,9 @@ namespace BusinessLayer.Entities
             this.CombinationArray[2] = 0;
         }
 
-        public int AreAllEqual()
+        public int GetWinner()
         {
-            if (this.CombinationArray[0] == this.CombinationArray[1] && this.CombinationArray[1] == this.CombinationArray[2] && this.CombinationArray[1] == this.CombinationArray[1])
+            if (this.CombinationArray[0] == this.CombinationArray[1] && this.CombinationArray[0] == this.CombinationArray[2] && this.CombinationArray[1] == this.CombinationArray[2])
             {
                 return this.CombinationArray[0];
             } else

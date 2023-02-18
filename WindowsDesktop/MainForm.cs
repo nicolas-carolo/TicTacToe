@@ -137,7 +137,7 @@ namespace TicTacToe
             if (cell.Winner > 0)
             {
                 string winnerStr = cell.Winner.ToString();
-                MessageBox.Show("The winner is Player " + winnerStr + " (" + IntToCrossCyrcle(cell.Winner) + ")!");
+                MessageBox.Show($"The winner is Player {winnerStr} ({IntToCrossCyrcle(cell.Winner)})!");
                 button1.Enabled = false;
                 button2.Enabled = false;
                 button3.Enabled = false;
@@ -241,9 +241,9 @@ namespace TicTacToe
 
         private void CallBot()
         {
-            if (this.Controller.PlayersNumber == 1)
+            if (this.Controller.NumberOfPlayers == 1)
             {
-                this.BotPlayer.Update(this.Controller.WinningCombinations, this.Controller.PressedCells);
+                this.BotPlayer.Update(this.Controller.WinningCombinations, this.Controller.NumberOfCellsPressed);
                 int pressedCell = this.BotPlayer.PressCell();
                 if (pressedCell > 0)
                 {
@@ -265,7 +265,7 @@ namespace TicTacToe
 
         private void restartBtn_Click(object sender, EventArgs e)
         {
-            if (this.Controller.PlayersNumber == 1)
+            if (this.Controller.NumberOfPlayers == 1)
             {
                 ResetSinglePlayerGame();
             } else
@@ -280,7 +280,7 @@ namespace TicTacToe
             ResetGame();
             this.Controller = new Controller(1);
             this.BotPlayer = new BotPlayer(this.Controller.LastPlayer);
-            this.BotPlayer.Update(this.Controller.WinningCombinations, this.Controller.PressedCells);
+            this.BotPlayer.Update(this.Controller.WinningCombinations, this.Controller.NumberOfCellsPressed);
             if (this.BotPlayer.StartingPlayer == 2)
             {
                 int pressedCell = this.BotPlayer.PressCell();

@@ -10,3 +10,15 @@ C:\Users\Nicolas\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\BusinessL
 C:\Users\Nicolas\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
 C:\Users\Nicolas\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
 C:\Users\Nicolas\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+C:\Users\nicol\source\repos\TicTacToe\BusinessLayer\bin\Debug\net6.0\BusinessLayer.deps.json
+C:\Users\nicol\source\repos\TicTacToe\BusinessLayer\bin\Debug\net6.0\BusinessLayer.dll
+C:\Users\nicol\source\repos\TicTacToe\BusinessLayer\bin\Debug\net6.0\BusinessLayer.pdb
+C:\Users\nicol\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\nicol\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\nicol\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\nicol\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\BusinessLayer.dll
+C:\Users\nicol\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
+C:\Users\nicol\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
+C:\Users\nicol\source\repos\TicTacToe\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll

@@ -10,46 +10,47 @@ namespace BusinessLayer.Entities
     {
 
         public int StartingPlayer;
-        public int PressedCells;
+        public int NumberOfCellsPressed;
         public WinningCombinations WinningCombinations = new WinningCombinations();
 
         public BotPlayer(int lastPlayer)
         {
-            if (lastPlayer == 1)
-            {
-                this.StartingPlayer = 2;
-            }
-            else
-            {
-                this.StartingPlayer = 1;
-            }
-            this.PressedCells = 0;
+            this.StartingPlayer = lastPlayer == 1 ? 2 : 1;
+            this.NumberOfCellsPressed = 0;
         }
 
         public int PressCell()
         {
             int pressedCell;
-            if ((this.StartingPlayer == 2) || (this.PressedCells == 1 && this.StartingPlayer == 1 && !(IsCellAvailable(5))))
+            if (HasToAttack())
             {
-                Console.WriteLine("Attack");
                 pressedCell = Attacks();
             }
-            else if (this.PressedCells == 1 && this.StartingPlayer == 1 && IsCellAvailable(5))
+            else if (HasToStartFromTheCenter())
             {
                 pressedCell = 5;
             }
             else
             {
-                Console.WriteLine("Defend");
                 pressedCell = Defends();
             }
             return pressedCell;
         }
 
-        public void Update(WinningCombinations winningCombinations, int pressedCells)
+        private bool HasToAttack()
+        {
+            return (this.StartingPlayer == 2) || (this.NumberOfCellsPressed == 1 && this.StartingPlayer == 1 && !(IsCellAvailable(5)));
+        }
+
+        private bool HasToStartFromTheCenter()
+        {
+            return this.NumberOfCellsPressed == 1 && this.StartingPlayer == 1 && IsCellAvailable(5);
+        }
+
+        public void Update(WinningCombinations winningCombinations, int NumberOfCellsPressed)
         {
             this.WinningCombinations = winningCombinations;
-            this.PressedCells = pressedCells;
+            this.NumberOfCellsPressed = NumberOfCellsPressed;
         }
 
         public int ExtractRandomCell(int[] cellArray)
@@ -78,14 +79,7 @@ namespace BusinessLayer.Entities
                         }
                     }
                     cellArray = cellList.ToArray();
-                    if (cellArray.Length > 0)
-                    {
-                        pressedCell = ExtractRandomCell(cellArray);
-                    }
-                    else
-                    {
-                        pressedCell = GetEmptyCell();
-                    }
+                    pressedCell = cellArray.Length > 0 ? ExtractRandomCell(cellArray) : GetEmptyCell();
                 } else
                 {
                     pressedCell = ChooseCell(playerOneCombinationArray);
@@ -94,7 +88,6 @@ namespace BusinessLayer.Entities
             else
             {
                 pressedCell = ChooseCell(playerTwoCombinationArray);
-                Console.WriteLine("Selected Attack cell: " + pressedCell.ToString());
             }
             return pressedCell;
         }
@@ -115,32 +108,17 @@ namespace BusinessLayer.Entities
                     }
                 }
                 cellArray = cellList.ToArray();
-                if (cellArray.Length > 0)
-                {
-                    pressedCell = ExtractRandomCell(cellArray);
-                } else
-                {
-                    pressedCell = GetEmptyCell();
-                }
-                
+                pressedCell = cellArray.Length > 0 ? ExtractRandomCell(cellArray) : GetEmptyCell(); 
             } else
             {
                 pressedCell = ChooseCell(playerOneCombinationArray);
-                //Console.WriteLine("Selected: " + pressedCell.ToString());
             }
             return pressedCell;
         }
 
         public Combination[] FindTwoCellPlayer(int player)
         {
-            int otherPlayer;
-            if (player == 1)
-            {
-                otherPlayer = 2;
-            } else
-            {
-                otherPlayer = 1;
-            }
+            int otherPlayer = player == 1 ? 2 : 1;
             List<Combination> combinationsList = new List<Combination>();
             foreach (Combination combinationItem in this.WinningCombinations.CombinationsArray)
             {

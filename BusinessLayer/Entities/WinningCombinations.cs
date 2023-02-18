@@ -27,7 +27,7 @@ namespace BusinessLayer.Entities
         {
             foreach (Combination combinationItem in this.CombinationsArray)
             {
-                int winner = combinationItem.AreAllEqual();
+                int winner = combinationItem.GetWinner();
                 if (winner > 0)
                 {
                     return winner;
@@ -53,7 +53,6 @@ namespace BusinessLayer.Entities
                         charCounter++;
                     }
                 }
-                Console.WriteLine(combinationItem.Name + ": " + combinationItem.CombinationArray[0] + " " + combinationItem.CombinationArray[1] + " " + combinationItem.CombinationArray[2]);
             }
         }
     }

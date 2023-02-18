@@ -9,60 +9,28 @@ namespace BusinessLayer.Entities
     public class Controller
     {
         public int LastPlayer { get; set; }
-        public int PressedCells { get; set; }
+        public int NumberOfCellsPressed { get; set; }
         public WinningCombinations WinningCombinations;
-        public int PlayersNumber { get; set; }
+        public int NumberOfPlayers { get; set; }
 
-        public Controller(int playersNumber)
+        public Controller(int NumberOfPlayers)
         {
-            this.PressedCells = 0;
+            this.NumberOfCellsPressed = 0;
             this.WinningCombinations = new WinningCombinations();
-            this.PlayersNumber = playersNumber;
-
-            if (this.PlayersNumber == 1) {
-                int startingPlayer = ExtractRandomPlayer();
-                if (startingPlayer == 1) {
-                    this.LastPlayer = 2;
-                } else
-                {
-                    this.LastPlayer = 1;
-                }
-            } else
-            {
-                this.LastPlayer = 2;
-            }
+            this.NumberOfPlayers = NumberOfPlayers;
+            int startingPlayer = this.NumberOfPlayers == 1 ? ExtractRandomPlayer() : 1;
+            SetLastPlayer(startingPlayer);
         }
 
 
         public Cell CellPressed(int pressedCell)
         {
-            bool isMatchEnded;
-            this.PressedCells++;
-            Console.WriteLine(this.PressedCells.ToString());
-
-            if (this.PressedCells == 9)
-            {
-                isMatchEnded = true;
-            } else
-            {
-                isMatchEnded = false;
-            }
-
-            Cell cell;
-            if (this.LastPlayer == 1)
-            {
-                this.LastPlayer = 2;
-                cell = new Cell(2, 0, isMatchEnded);
-            } else
-            {
-                this.LastPlayer = 1;
-                cell = new Cell(1, 0, isMatchEnded);
-            }
-
+            this.NumberOfCellsPressed++;
+            bool isMatchEnded = this.NumberOfCellsPressed == 9 ? true : false;
+            this.LastPlayer = this.LastPlayer == 1 ? 2 : 1;
+            Cell cell = new Cell(this.LastPlayer, 0, isMatchEnded);
             this.WinningCombinations.UpdateCombinations(pressedCell, this.LastPlayer);
-
             cell.Winner = this.WinningCombinations.IsWinner();
-
             return cell;
         }
 
@@ -70,14 +38,13 @@ namespace BusinessLayer.Entities
         {
             var rand = new Random();
             double randValue = rand.NextDouble();
+            int selectedPlayer = randValue > 0.5 ? 2 : 1;
+            return selectedPlayer;
+        }
 
-            if (randValue > 0.5)
-            {
-                return 2;
-            } else
-            {
-                return 1;
-            }
+        public void SetLastPlayer(int startingPlayer)
+        {
+            this.LastPlayer = startingPlayer == 1 ? 2 : 1; 
         }
 
     }
