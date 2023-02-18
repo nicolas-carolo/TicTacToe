@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "CSTris\TicTacToe.csproj", "{2D24F0A8-5ADB-4906-A3EF-1A5A9F1DE82F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsDesktop", "WindowsDesktop\WindowsDesktop.csproj", "{A82E487D-80BB-4AF0-AF24-263F61CD071B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{5CC3FE93-32A0-435F-B789-F84561129D6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2D24F0A8-5ADB-4906-A3EF-1A5A9F1DE82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D24F0A8-5ADB-4906-A3EF-1A5A9F1DE82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D24F0A8-5ADB-4906-A3EF-1A5A9F1DE82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D24F0A8-5ADB-4906-A3EF-1A5A9F1DE82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82E487D-80BB-4AF0-AF24-263F61CD071B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82E487D-80BB-4AF0-AF24-263F61CD071B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82E487D-80BB-4AF0-AF24-263F61CD071B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82E487D-80BB-4AF0-AF24-263F61CD071B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC3FE93-32A0-435F-B789-F84561129D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC3FE93-32A0-435F-B789-F84561129D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC3FE93-32A0-435F-B789-F84561129D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC3FE93-32A0-435F-B789-F84561129D6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
