@@ -1,0 +1,14 @@
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/bin/Debug/XamarinBusinessLayer.dll
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/bin/Debug/XamarinBusinessLayer.pdb
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/obj/Debug/actool/_PartialAppManifest.items
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/obj/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/obj/Debug/actool/_ProcessedImageAssetsPath.items
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/obj/Debug/coremlc/_PartialAppManifest.items
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/obj/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/obj/Debug/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/obj/Debug/_ProcessedBundleResourcesPath.items
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/obj/Debug/_ProcessedContentPath.items
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/obj/Debug/XamarinBusinessLayer.csproj.AssemblyReference.cache
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/obj/Debug/XamarinBusinessLayer.csproj.CoreCompileInputs.cache
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/obj/Debug/XamarinBusinessLayer.dll
+/Users/nicolas/Projects/C#/TicTacToe/XamarinBusinessLayer/obj/Debug/XamarinBusinessLayer.pdb

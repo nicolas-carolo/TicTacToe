@@ -1,0 +1,60 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "4f6f4cac7009b7a3f4ee0c0df1ba4d7818a22176eb81f2b264386037e878d7ff"
+    }
+  ],
+  "containerPath" : "/Users/nicolas/Projects/C#/TicTacToe/MacDesktop/obj/Xcode/2/MacDesktop.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/nicolas/Projects/C#/TicTacToe/MacDesktop/obj/Xcode/2/DerivedData/MacDesktop/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/nicolas/Projects/C#/TicTacToe/MacDesktop/obj/Xcode/2/DerivedData/MacDesktop/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/nicolas/Projects/C#/TicTacToe/MacDesktop/obj/Xcode/2/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/nicolas/Projects/C#/TicTacToe/MacDesktop/obj/Xcode/2/DerivedData/MacDesktop/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/nicolas/Projects/C#/TicTacToe/MacDesktop/obj/Xcode/2/DerivedData/MacDesktop/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/nicolas/Projects/C#/TicTacToe/MacDesktop/obj/Xcode/2/DerivedData/MacDesktop/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/nicolas/Projects/C#/TicTacToe/MacDesktop/obj/Xcode/2/DerivedData/MacDesktop/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
